@@ -1,0 +1,96 @@
+<style>
+  .eksul-container {
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 24px;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  .eksul-container h1 {
+    text-align: center;
+    color: #1a237e;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+  }
+  .eksul-container p.subtext {
+    text-align: center;
+    color: #555;
+    margin-bottom: 25px;
+    font-size: 1em;
+  }
+  .eksul-section {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .eksul-section h2 {
+    margin-top: 0;
+    color: #0277bd;
+    font-size: 1.4em;
+  }
+  .eksul-section a.button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    background-color: #1e88e5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: background-color 0.2s ease;
+  }
+  .eksul-section a.button:hover {
+    background-color: #1565c0;
+  }
+  .eksul-section a.whatsapp {
+    background-color: #25d366;
+  }
+  .eksul-section a.whatsapp:hover {
+    background-color: #1da955;
+  }
+  .eksul-section a.profil {
+    background-color: #8e44ad;
+  }
+  .eksul-section a.profil:hover {
+    background-color: #6c3483;
+  }
+  @media (min-width: 600px) {
+    .eksul-section a.button {
+      display: inline-block;
+      width: auto;
+      margin-right: 10px;
+    }
+  }
+</style>
+
+<div class="eksul-container">
+  <h1>📘 Info Ekskul & Kontak Pelatih</h1>
+  <p class="subtext">Klik tombol di bawah untuk mengunduh program latihan, brosur, atau langsung hubungi pelatih via WhatsApp</p>
+
+  <!-- Renang -->
+  <div class="eksul-section">
+    <h2>🏊‍♀️ Ekskul Renang</h2>
+    <a href="https://drive.google.com/file/d/1SKrbD2UdW72_e_rFZ_z6LdqyxdWamoBa/view?usp=drive_link" target="_blank" class="button">📥 Program Latihan</a>
+    <a href="https://drive.google.com/file/d/1SVcJRIQiPVaSxActEw6hPtNq-wGy-YbJ/view?usp=drive_link" target="_blank" class="button">📄 Brosur Renang</a>
+    <a href="https://wa.me/6289636373862" target="_blank" class="button whatsapp">💬 WhatsApp Kak Yenni</a>
+  </div>
+
+  <!-- Bulutangkis -->
+  <div class="eksul-section">
+    <h2>🏸 Ekskul Bulutangkis</h2>
+    <a href="https://drive.google.com/file/d/1SJ4Bt_EKJqKRqepKaOT11SdOGKjCWd0Q/view?usp=drive_link" target="_blank" class="button">📥 Program Latihan</a>
+    <a href="https://drive.google.com/file/d/1SUcppLNNxAAW_zetLcbJ2ikOwywZB6Tr/view?usp=drive_link" target="_blank" class="button">📄 Brosur Bulutangkis</a>
+    <a href="https://wa.me/6285860596902" target="_blank" class="button whatsapp">💬 WhatsApp Kak Devtio</a>
+  </div>
+
+  <!-- Giat Motorik -->
+  <div class="eksul-section">
+    <h2>🧠 Profil Giat Motorik</h2>
+    <a href="https://simplebooklet.com/giat" target="_blank" class="button profil">🌐 Lihat Profil Giat Motorik</a>
+  </div>
+</div>
